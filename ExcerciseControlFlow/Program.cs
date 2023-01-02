@@ -11,7 +11,9 @@ namespace ExcerciseControlFlow
         static void Main(string[] args)
         {
         A: Console.Clear();
+            
             Console.WriteLine("Enter ur choice:");
+            Console.WriteLine("1.ValidityCheck\t\t2.Max Number\n3.AspectRatio\t\t4.CarSpeed\n");
             var choice = Convert.ToInt32(Console.ReadLine());
         
             switch (choice)
